@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="contanier">
+            <div class="navbar">
+                <div class="words"><h1> Where in the World?</h1></div>
+                <div class="mood"><h3><i class="bi bi-moon"></i>Dark Mode</h3></div>
+            </div>
+        </div>
+    </nav>
+    <div class="inputWrapper">
+        <input type="text" id="searchBar" style="color: white">
+        <select id="gender">
+            <option value="all">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <div class="mainWrapper">
+    </div>
+    <button id="load">Load More</button>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
